@@ -18,7 +18,7 @@ pub fn run() {
     let price = ship.get_price_for_distance(kilometers, FuelType::Methane.get_price());
 
     println!(
-        "To travel {} with {} you will need to cash out {} Eur",
+        "To travel {}km with {} you will need to cash out {} Eur",
         kilometers, ship, price
     );
 }
